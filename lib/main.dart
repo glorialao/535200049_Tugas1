@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           Image(
             image: AssetImage('images/logo.png'),
             ),
-            Text('Hello World')
+            Text('Hello World!')
         ],)
       ),
       ),
