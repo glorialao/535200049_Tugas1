@@ -20,8 +20,7 @@ class MyApp extends StatelessWidget {
       body: Center (
         child: Column(children: [
           Image(
-            image: NetworkImage(
-              'https://asset.kompas.com/crops/ciMAChzdA6xZgPU5OX4_Q4RN53M=/192x128:1728x1152/750x500/data/photo/2021/02/17/602cde2e2ddec.jpg'),
+            image: AssetImage('images/logo.png'),
             ),
             Text('Hello World')
         ],)
